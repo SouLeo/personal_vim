@@ -3,6 +3,7 @@ syntax on
 
 set number
 set tabstop=4
+set hlsearch
 
 "	Plugin Loading Information.
 if empty(glob('~/.vim/autoload/plug.vim'))
