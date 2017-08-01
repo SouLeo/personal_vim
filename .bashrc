@@ -116,8 +116,15 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export http_proxy=http://proxyout.<REDACTED>.gov:8080
-export https_proxy=https://proxyout.<REDACTED>.gov:8080
-
+# LANL PROXY USE
+export http_proxy=http://proxyout.lanl.gov:8080
+export https_proxy=https://proxyout.lanl.gov:8080
 alias sudo='sudo -E'
+alias cb='clear && catkin build'
+
+# ROS Sourcing
 source /opt/ros/kinetic/setup.bash
+source ~/mb/devel/setup.sh
+#source ~/orp_ws/devel/setup.sh
+#source ~/alpha_sweep/devel/setup.bash
+#source ~/pcl_ws/devel/setup.sh
