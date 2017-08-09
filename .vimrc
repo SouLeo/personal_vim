@@ -9,7 +9,9 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
-set textwidth=120
+set formatoptions=croql
+set textwidth=80
+set wrapmargin=0
 
 set hlsearch
 
@@ -24,10 +26,13 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'taketwo/vim-ros'
 Plug 'junegunn/seoul256.vim'
+Plug 'octol/vim-cpp-enhanced-highlight'
+Plug 'Valloric/YouCompleteMe'
 
 call plug#end()
 
-colo seoul256
+"   colo seoul256
+colo ron
 
 "	Shift between vim tabs. 
 map <space><left> :tabp<cr>
