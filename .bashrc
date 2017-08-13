@@ -116,10 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# LANL PROXY USE
-export http_proxy=http://proxyout.lanl.gov:8080
-export https_proxy=https://proxyout.lanl.gov:8080
-alias sudo='sudo -E'
 alias cb='clear && catkin build'
 
 # ROS Sourcing
