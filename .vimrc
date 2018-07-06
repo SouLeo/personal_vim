@@ -25,14 +25,16 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'taketwo/vim-ros'
+Plug 'Manu-sh/NeonVimColorScheme'
 Plug 'junegunn/seoul256.vim'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'Valloric/YouCompleteMe'
 
 call plug#end()
 
-"   colo seoul256
-colo ron
+"let g:seoul256_background = 233
+"colo seoul256
+colo neon
 
 "	Shift between vim tabs. 
 map <space><left> :tabp<cr>
