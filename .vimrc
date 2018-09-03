@@ -1,6 +1,9 @@
 filetype plugin on
 syntax on
 
+" Switching between python versions in vim:
+" sudo update-alternatives --config vim
+
 set number
 
 set autoindent
@@ -14,6 +17,8 @@ set textwidth=80
 set wrapmargin=0
 
 set hlsearch
+
+let g:pymode_python = 'python3'
 
 "	Plugin Loading Information.
 if empty(glob('~/.vim/autoload/plug.vim'))

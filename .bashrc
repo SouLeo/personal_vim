@@ -120,7 +120,3 @@ alias cb='clear && catkin build'
 
 # ROS Sourcing
 source /opt/ros/kinetic/setup.bash
-source ~/mb/devel/setup.bash
-#source ~/orp_ws/devel/setup.bash
-#source ~/alpha_sweep/devel/setup.bash
-#source ~/pcl_ws/devel/setup.bash
