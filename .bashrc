@@ -120,3 +120,12 @@ alias cb='clear && catkin build'
 
 # ROS Sourcing
 source /opt/ros/kinetic/setup.bash
+
+# IN ORDER TO USE PYTORCH UNCOMMENT THESE LINES. 
+# THEY CONFLICT WITH ROS' ENVIRONMENT SETTINGS. 
+# TODO: FIND A WAY TO RUN BOTH
+
+# added by Anaconda3 installer
+#export PATH="/home/selmawanna/anaconda3/bin:$PATH"
+
+#export PYTHONPATH=$PYTHONPATH:/usr/lib/python2.7/dist-packages
